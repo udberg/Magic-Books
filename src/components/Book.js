@@ -20,3 +20,10 @@ Book.propTypes = {
     category: PropTypes.string,
     removeBook: PropTypes.func,
 };
+
+Book.defaultProps = {
+    id: null,
+    title: '',
+    category: '',
+    removeBook: null,
+};
