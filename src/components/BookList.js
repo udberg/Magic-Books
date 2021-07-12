@@ -31,3 +31,10 @@ BookList.propTypes = {
     books: PropTypes.arrayOf(PropTypes.instanceOf(Object)),
     removeBook: PropTypes.func,
 };
+
+BookList.defaultProps = {
+    books: [],
+    removeBook: null,
+};
+
+export default BookList;
