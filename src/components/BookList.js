@@ -26,3 +26,8 @@ const BookList = ({ books, removeBook }) => (
         </table>
     </div>
 );
+
+BookList.propTypes = {
+    books: PropTypes.arrayOf(PropTypes.instanceOf(Object)),
+    removeBook: PropTypes.func,
+};
