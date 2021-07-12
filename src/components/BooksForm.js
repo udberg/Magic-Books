@@ -12,4 +12,13 @@ class BookForm extends Component {
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
+
+    get isValid() {
+        const { title, category } = this.state;
+        return title && category;
+    }
+
+    get isInValid() {
+        return !this.isValid;
+    }
 }
