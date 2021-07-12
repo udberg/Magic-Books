@@ -13,3 +13,10 @@ const Book = ({ id, title, category, removeBook }) => ( // eslint-disable-line
         </td>
     </tr>
 );
+
+Book.propTypes = {
+    id: PropTypes.string,
+    title: PropTypes.string,
+    category: PropTypes.string,
+    removeBook: PropTypes.func,
+};
