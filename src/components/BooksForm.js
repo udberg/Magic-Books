@@ -21,4 +21,9 @@ class BookForm extends Component {
     get isInValid() {
         return !this.isValid;
     }
+
+    handleChange(event) {
+        const { name, value } = event.target;
+        this.setState({ [name]: value });
+    }
 }
