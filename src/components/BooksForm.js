@@ -53,5 +53,32 @@ class BookForm extends Component {
             'Learning',
             'Sci-Fi',
         ];
+
+        const { title, category } = this.state;
+        return (
+            <div>
+                <form onSubmit={this.handleSubmit}>
+                    <input 
+                    type="text"
+                    onChange={this.handleChange}
+                    placeholder="Please fill book name."
+                    name="title"
+                    value={title}
+                    />
+                    <select name="category" value={category} onChange={this.handleChange}>
+                        {categories.map((item) => (
+                            <option value={item} key={item}>
+                                {item}
+                            </option>
+                        ))}
+                    </select>
+                    <imput
+                    type="submit"
+                    value="Create a book"
+                    disabled={this.isInValid}
+                    />
+                </form>
+            </div>
+        )
     }
 }
