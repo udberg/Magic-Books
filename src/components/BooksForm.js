@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class BookForm extends Component {
+class BooksForm extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -79,6 +79,16 @@ class BookForm extends Component {
                     />
                 </form>
             </div>
-        )
-    }
+        );
+    } 
 }
+
+BooksForm.PropTypes = {
+    createBook: PropTypes.func,
+};
+
+BooksForm.defaultProps = {
+    createBook: null,
+};
+
+export default BooksFrom;
