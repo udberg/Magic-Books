@@ -28,6 +28,9 @@
     "extends": [
       "react-app",
       "react-app/jest"
+    ],
+    "presets": [
+      "@babel/preset-react"
     ]
   },
   "browserslist": {
