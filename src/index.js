@@ -4,9 +4,9 @@ import './index.css';
 import App from './components/App';
 
 const MainApp = () => (
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
 );
 
 ReactDOM.render(<MainApp />, document.getElementById('root'));
