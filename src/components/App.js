@@ -1,12 +1,9 @@
 import React from 'react';
-import BookListContainer from './BookListContainer';
-import BooksFormContainer from './BooksFormContainer';
 
 const App = () => (
-    <div>
-        <BookListContainer />
-        <BookListContainer />
-    </div>
+  <div className="App">
+    <h1>Hello World</h1>
+  </div>
 );
 
 export default App;
