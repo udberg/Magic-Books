@@ -29,7 +29,7 @@ class BooksForm extends Component {
 
     handleSubmit(e) {
         e.preventDefault();
-        const { createBook } = this.props'
+        const { createBook } = this.props;
 
         if (this.isInValid) return;
 

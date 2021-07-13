@@ -14,7 +14,7 @@ export const createBook = (bookData) => {
         ...bookData,
     };
     return {
-        type; CREATE_BOOK,
+        type: CREATE_BOOK,
         payload: { book },
     };
 };
