@@ -1,11 +1,11 @@
 import React from 'react';
-import BookList from '../containers/BookList';
-import BooksForm from '../containers/BooksForm';
+import BookListContainer from '../containers/BookListContainer';
+import BooksFormContainer from '../containers/BooksFormContainer';
 
 const App = () => (
-  <div className="App">
-    <BookList />
-    <BooksForm />
+  <div>
+    <BookListContainer />
+    <BooksFormContainer />
   </div>
 );
 
