@@ -26,7 +26,7 @@ Magic-Books is a React and Redux bookstore where users can manage and organize t
 
  ## Screenshot
 
-![img](./)
+![img](./mockup.png)
 
 ## Built With 🛠
 
