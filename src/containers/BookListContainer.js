@@ -1,7 +1,6 @@
 import { connect } from 'react-redux';
 import { removeBook } from '../actions/index';
 import BookList from '../components/BookList';
-import filterBook from '../reducers/filter';
 
 const getbBooks = (books, filter) => {
     if (filter === 'All') {
