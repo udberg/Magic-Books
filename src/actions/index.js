@@ -26,6 +26,6 @@ export const removeBook = (id) => ({
 });
 
 export const filterBook = (value) => ({
-    type: CHANGE_FILTER,
-    value,
+  type: CHANGE_FILTER,
+  value,
 });
