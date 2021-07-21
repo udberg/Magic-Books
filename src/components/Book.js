@@ -8,7 +8,7 @@ const Book = (
     <div className="book__wrapper_left">
       <h3>{category}</h3>
       <h2>{title}</h2>
-      <p className="text-link ">Utkir Khashimov </p>
+      <p className="text-link ">Amos Tversky </p>
       <div className="book__wrapper_left_bottom">
         <button className="text-link " type="button">
           Comments

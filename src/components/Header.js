@@ -5,7 +5,7 @@ import image from '../assets/user.svg';
 const Header = () => (
   <header className="header__box">
     <div className="header__box_innerBox">
-      <h1>Bookstore CMS</h1>
+      <h1>CMS Bookstore</h1>
       <NavLink to="/">Books</NavLink>
       <NavLink to="/categories">Categories</NavLink>
     </div>
