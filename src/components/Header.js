@@ -7,7 +7,7 @@ const Header = () => (
     <div className="header__box_innerBox">
       <h1>Bookstore CMS</h1>
       <NavLink to="/">Books</NavLink>
-      <NavLink to="/categories">Categories</NavLink>
+      <NavLink to="/categories"> Categories</NavLink>
     </div>
     <div>
       <span className="user__oval">

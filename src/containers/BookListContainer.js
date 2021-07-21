@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { removeBook } from '../actions/index';
+import { removeBook, filterBook } from '../actions/index';
 import BookList from '../components/BookList';
 
 const getbBooks = (books, filter) => {
