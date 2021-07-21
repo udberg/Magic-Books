@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 const Book = (
@@ -8,7 +8,7 @@ const Book = (
     <div className="book__wrapper_left">
       <h3>{category}</h3>
       <h2>{title}</h2>
-      <p className="text-link ">Amos Tversky </p>
+      <p className="text-link ">Utkir Khashimov </p>
       <div className="book__wrapper_left_bottom">
         <button className="text-link " type="button">
           Comments
@@ -47,18 +47,18 @@ const Book = (
   </div>
 );
 
-Book.PropTypes = {
-    id: PropTypes.string,
-    title: PropTypes.string,
-    category: PropTypes.string,
-    handleRemoveBook: PropTypes.func,
+Book.propTypes = {
+  id: PropTypes.string,
+  title: PropTypes.string,
+  category: PropTypes.string,
+  handleRemoveBook: PropTypes.func,
 };
 
 Book.defaultProps = {
-    id: null,
-    title: '',
-    category: '',
-    handleRemoveBook: null,
+  id: null,
+  title: '',
+  category: '',
+  handleRemoveBook: null,
 };
 
 export default Book;
