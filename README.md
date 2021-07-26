@@ -22,7 +22,7 @@ Magic-Books is a React and Redux bookstore where users can manage and organize t
 
 ## Live Demo
 
-[Magic-Books]()
+[Magic-Books](https://epic-almeida-def7e9.netlify.app/)
 
  ## Screenshot
 
